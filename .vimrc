@@ -48,7 +48,10 @@ let g:netrw_altv=1           " use right splitting when opening files
 ""let g:netrw_list_hide=netrw_gitignore#Hide() "??? TODO
 
 
-augroup ProjectBrowse
-	autocmd!
-	autocmd VimEnter * :Vexplore
-augroup END
+""augroup ProjectBrowse
+""	autocmd!
+""	autocmd VimEnter * :Vexplore
+""augroup END
+
+" reading the default blue comments at work is hard!
+highlight Comment ctermfg=27
